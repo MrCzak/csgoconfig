@@ -1,0 +1,6 @@
+title: CZAK.CFG
+description: A config for Counter-Strike Global Offensive.
+show_downloads: true
+github:
+  zip_url: https://github.com/MrCzak/csgoconfig/raw/master/CSGO%20CONFIG%20for%20Czak.exe
+theme: jekyll-theme-tactile
