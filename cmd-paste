@@ -1,1 +1,1 @@
-for /f "tokens=2*" %a in ('reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 730" /v "InstallLocation"') do (curl -LSs "raw.githubusercontent.com/MrCzak/csgoconfig/main/autoexec.cfg" -o "%b\game\core\cfg\autoexec.cfg")
+for /f "tokens=2*" %a in ('reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 730" /v "InstallLocation"') do (curl -Ls "raw.githubusercontent.com/MrCzak/csgoconfig/main/autoexec.cfg" -o "%b\game\core\cfg\autoexec.cfg")
