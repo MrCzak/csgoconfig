@@ -1,0 +1,300 @@
+// Text color mod 4.1
+// Oryginalny pomysl: Orel & spddl
+// Przepisane na nowo, i zedytowane przez BananaGaming od wersji 1.0
+// Przetlumaczone przez: Chuck
+// Zmiany dla Panorama UI
+// -------------------------------------------------------------------------------------------
+	// PRZYCISK AKCEPTACJI MECZU
+		
+		"match_ready_accept"				"Сука Блять"
+        
+	// NAZWY RANG
+		
+		"skillgroup_1"						"(1/18) Srebro I"
+		"skillgroup_2"						"(2/18) Srebro II"
+		"skillgroup_3"						"(3/18) Srebro III"
+		"skillgroup_4"						"(4/18) Srebro IV"
+		"skillgroup_5"						"(5/18) Elitarne srebro"
+		"skillgroup_6"						"(6/18) Mistrzowskie elitarne srebro"
+		"skillgroup_7"						"(7/18) Złoty laur I"
+		"skillgroup_8"						"(8/18) Złoty laur II"
+		"skillgroup_9"						"(9/18) Złoty laur III"
+		"skillgroup_10"						"(10/18) Mistrzowski złoty laur"
+		"skillgroup_11"						"(11/18) Mistrzowski obrońca I"
+		"skillgroup_12"						"(12/18) Mistrzowski obrońca II"
+		"skillgroup_13"						"(13/18) Elitarny mistrzowski obrońca"
+		"skillgroup_14"						"(14/18) Wybitny mistrzowski obrońca"
+		"skillgroup_15"						"(15/18) Legendarny orzeł"
+		"skillgroup_16"						"(16/18) Mistrzowski legendarny orzeł"
+		"skillgroup_17"						"(17/18) Mistrzowska pierwsza klasa"
+		"skillgroup_18"						"(18/18) Elita światowa"
+		
+	// INFO RODZAJU EKWIPUNKU
+		
+		"CSGO_Inventory_Team_Any"			""
+		"CSGO_Inventory_Team_CT"			""
+		"CSGO_Inventory_Team_T"				""
+		
+	// EKWIPUNEK STATUS
+		
+		"SFUI_InvTooltip_Wear_Amount_0"		"Prosto z fabryki (5/5)"
+		"SFUI_InvTooltip_Wear_Amount_1"		"Lekkie zużycie (4/5)"
+		"SFUI_InvTooltip_Wear_Amount_2"		"Po testach bojowych (3/5)"
+		"SFUI_InvTooltip_Wear_Amount_3"		"Mocne zużycie (2/5)"
+		"SFUI_InvTooltip_Wear_Amount_4"		"Po ciężkich walkach (1/5)"
+		
+	// ŁADOWANIE
+		
+		"LoadingProgress_SpawningServer"	"(0%) Uruchamianie lokalnego serwera gry..."
+		"LoadingProgress_ProcessServerInfo"	"(10%) Pobieranie informacji o serwerze..."
+		"LoadingProgress_LoadMap"			"(10%) Wczytywanie świata..."
+		"LoadingProgress_PrecacheWorld"		"(20%) Inicjowanie świata..."
+		"LoadingProgress_LoadResources"		"(50%) Wczytywanie zasobów..."
+		"LoadingProgress_Connecting"		"(75%) Łączenie z serwerem..."
+		"LoadingProgress_SendClientInfo"	"(75%) Wysyłanie informacji klienta..."
+		"LoadingProgress_SignonLocal"		"(80%) Inicjowanie zasobów..."
+		"LoadingProgress_SignonData"		"(90%) Pobieranie danych gry..."
+		"LoadingProgress_SignonDataLocal"	"(90%) Inicjowanie danych gry..."
+		
+	// INFORMACJE O OBRAŻENIACH (W GRZE) (IN-GAME)
+		
+		"Panorama_FreezePanel_DamageTaken"				"<font color='#A0A0A0'>Otrzymane obrażenia:  </font><font color='#ff0000'><b>{d:damage_taken}</b></font> <font color='#A0A0A0'> w</font> <font color='#ff0000'><b>{d:hits_taken} trafieniu </b></font> <font color='#A0A0A0'>od gracza {s:killer_name}</font>"
+		"Panorama_FreezePanel_DamageGiven"				"<font color='#A0A0A0'>Zadane obrażenia:  </font><font color='#00ff00'><b>{d:damage_given}</b></font> <font color='#A0A0A0'> w</font> <font color='#00ff00'><b>{d:hits_given} trafieniu </b></font> <font color='#A0A0A0'>graczowi {s:killer_name}</font>"
+		"Panorama_FreezePanel_DamageTaken_Multi"		"<font color='#A0A0A0'>Otrzymane obrażenia:  </font><font color='#ff0000'><b>{d:damage_taken}</b></font> <font color='#A0A0A0'> w</font> <font color='#ff0000'><b>{d:hits_taken} trafieniach </b></font> <font color='#A0A0A0'>od gracza {s:killer_name}</font>"
+		"Panorama_FreezePanel_DamageGiven_Multi"		"<font color='#A0A0A0'>Zadane obrażenia:  </font><font color='#00ff00'><b>{d:damage_given}</b></font> <font color='#A0A0A0'> w</font> <font color='#00ff00'><b>{d:hits_given} trafieniach </b></font> <font color='#A0A0A0'>graczowi {s:killer_name}</font>"
+		"Panorama_Freeze_Snapshot"						""
+		
+	// INFORMACJE PODCZAS CELOWANIA (W GRZE)
+		
+		"Panorama_HUD_playerid_sameteam"		"<font color='#00ff00'>{s:player_name} - {d:player_health}%</font>"
+		"Panorama_HUD_playerid_diffteam"		"<font color='#ff0000'>{s:player_name}</font>"
+		
+	// DOŁĄCZANIE DO GRY (WIADOMOŚCI NA CZACIE)
+		
+		"Cstrike_game_join_terrorist"			"%s1 dołącza do 	T\n"
+		"Cstrike_game_join_ct"					"%s1 dołącza do CT\n"
+		
+	// OGIEŃ PRZYJACIELSKI (WIADOMOŚCI NA CZACIE)
+		
+		"Cstrike_TitlesTXT_Game_teammate_attack" 		"%s1 zaatakował kolegę z drużyny."
+		
+	// BOMBA (WIADOMOŚCI NA CZACIE)
+		
+		"Cstrike_TitlesTXT_Defusing_Bomb"				"Rozbrajam."
+		"Cstrike_TitlesTXT_Planting_Bomb"				"Podkładam."
+		
+	// GRANATY (WIADOMOŚCI NA CZACIE)
+		
+		"SFUI_TitlesTXT_Fire_in_the_hole" 				"Grenade"
+		"SFUI_TitlesTXT_Molotov_in_the_hole" 			"Molotov"
+		"SFUI_TitlesTXT_Incendiary_in_the_hole" 		"Incendiary"
+		"SFUI_TitlesTXT_Flashbang_in_the_hole" 			"Flash"
+		"SFUI_TitlesTXT_Smoke_in_the_hole" 				"Smoke"
+		"SFUI_TitlesTXT_Decoy_in_the_hole" 				"Decoy"
+		
+		
+	// ============= WERSJA 4.1 ==================================================================
+		
+        
+		// RANGI - STREFA ZAGROŻENIA (DANGER ZONE)
+		
+		"skillgroup_1dangerzone"			"(1/15) Szczur laboratoryjny I"
+		"skillgroup_2dangerzone"			"(2/15) Szczur laboratoryjny II"
+		"skillgroup_3dangerzone"			"(3/15) Biegnący zając I"
+		"skillgroup_4dangerzone"			"(4/15) Biegnący zając II"
+		"skillgroup_5dangerzone"			"(5/15) Dziki skaut I"
+		"skillgroup_6dangerzone"			"(6/15) Dziki skaut II"
+		"skillgroup_7dangerzone"			"(7/15) Elitarny dziki skaut"
+		"skillgroup_8dangerzone"			"(8/15) Lis łowca I"
+		"skillgroup_9dangerzone"			"(9/15) Lis łowca II"
+		"skillgroup_10dangerzone"			"(10/15) Lis łowca III"
+		"skillgroup_11dangerzone"			"(11/15) Elitarny lis łowca"
+		"skillgroup_12dangerzone"			"(12/15) Wilk szary"
+		"skillgroup_13dangerzone"			"(13/15) Wilk żaru"
+		"skillgroup_14dangerzone"			"(14/15) Wilk ognia"
+		"skillgroup_15dangerzone"			"(15/15) Wyjący alfa"
+		
+	// RANGI TURNIEJOWE - OBRAZKI
+        
+		"tooltip_skill_group_generic"   "
+                                Ranga jest używana podczas wyszukiwania gier w trybie Turniejowym w celu znalezienia meczu odpowiedniego do umiejętności gracza.\n
+                                <b>Rangi meczów Turniejowych:</b>\n
+                                <img src='file://{images}/icons/skillgroups/skillgroup1.svg'/> - (1/18) Srebro I\n
+								<img src='file://{images}/icons/skillgroups/skillgroup2.svg'/> - (2/18) Srebro II\n
+								<img src='file://{images}/icons/skillgroups/skillgroup3.svg'/> - (3/18) Srebro III\n
+								<img src='file://{images}/icons/skillgroups/skillgroup4.svg'/> - (4/18) Srebro IV\n
+								<img src='file://{images}/icons/skillgroups/skillgroup5.svg'/> - (5/18) Elitarne srebro\n
+								<img src='file://{images}/icons/skillgroups/skillgroup6.svg'/> - (6/18) Mistrzowskie elitarne srebro\n
+								<img src='file://{images}/icons/skillgroups/skillgroup7.svg'/> - (7/18) Złoty laur I\n
+								<img src='file://{images}/icons/skillgroups/skillgroup8.svg'/> - (8/18) Złoty laur II\n
+								<img src='file://{images}/icons/skillgroups/skillgroup9.svg'/> - (9/18) Złoty laur III\n
+								<img src='file://{images}/icons/skillgroups/skillgroup10.svg'/> - (10/18) Mistrzowski złoty laur\n
+								<img src='file://{images}/icons/skillgroups/skillgroup11.svg'/> - (11/18) Mistrzowski obrońca I\n
+								<img src='file://{images}/icons/skillgroups/skillgroup12.svg'/> - (12/18) Mistrzowski obrońca II\n
+								<img src='file://{images}/icons/skillgroups/skillgroup13.svg'/> - (13/18) Elitarny mistrzowski obrońca\n
+								<img src='file://{images}/icons/skillgroups/skillgroup14.svg'/> - (14/18) Wybitny mistrzowski obrońca\n
+								<img src='file://{images}/icons/skillgroups/skillgroup15.svg'/> - (15/18) Legendarny orzeł\n
+								<img src='file://{images}/icons/skillgroups/skillgroup16.svg'/> - (16/18) Mistrzowski legendarny orzeł\n
+								<img src='file://{images}/icons/skillgroups/skillgroup17.svg'/> - (17/18) Mistrzowska pierwsza klasa\n
+								<img src='file://{images}/icons/skillgroups/skillgroup18.svg'/> - (18/18) Elita światowa\n"
+        "tooltip_skill_group_none"  "
+                                Wygraj mecz w trybie Turniejowym jeszcze <b>{d:winsneeded}</b> razy, by poznać swoją rangę.\n
+                                <b>Rangi meczów Turniejowych:</b>\n
+                                <img src='file://{images}/icons/skillgroups/skillgroup1.svg'/> - (1/18) Srebro I\n
+								<img src='file://{images}/icons/skillgroups/skillgroup2.svg'/> - (2/18) Srebro II\n
+								<img src='file://{images}/icons/skillgroups/skillgroup3.svg'/> - (3/18) Srebro III\n
+								<img src='file://{images}/icons/skillgroups/skillgroup4.svg'/> - (4/18) Srebro IV\n
+								<img src='file://{images}/icons/skillgroups/skillgroup5.svg'/> - (5/18) Elitarne srebro\n
+								<img src='file://{images}/icons/skillgroups/skillgroup6.svg'/> - (6/18) Mistrzowskie elitarne srebro\n
+								<img src='file://{images}/icons/skillgroups/skillgroup7.svg'/> - (7/18) Złoty laur I\n
+								<img src='file://{images}/icons/skillgroups/skillgroup8.svg'/> - (8/18) Złoty laur II\n
+								<img src='file://{images}/icons/skillgroups/skillgroup9.svg'/> - (9/18) Złoty laur III\n
+								<img src='file://{images}/icons/skillgroups/skillgroup10.svg'/> - (10/18) Mistrzowski złoty laur\n
+								<img src='file://{images}/icons/skillgroups/skillgroup11.svg'/> - (11/18) Mistrzowski obrońca I\n
+								<img src='file://{images}/icons/skillgroups/skillgroup12.svg'/> - (12/18) Mistrzowski obrońca II\n
+								<img src='file://{images}/icons/skillgroups/skillgroup13.svg'/> - (13/18) Elitarny mistrzowski obrońca\n
+								<img src='file://{images}/icons/skillgroups/skillgroup14.svg'/> - (14/18) Wybitny mistrzowski obrońca\n
+								<img src='file://{images}/icons/skillgroups/skillgroup15.svg'/> - (15/18) Legendarny orzeł\n
+								<img src='file://{images}/icons/skillgroups/skillgroup16.svg'/> - (16/18) Mistrzowski legendarny orzeł\n
+								<img src='file://{images}/icons/skillgroups/skillgroup17.svg'/> - (17/18) Mistrzowska pierwsza klasa\n
+								<img src='file://{images}/icons/skillgroups/skillgroup18.svg'/> - (18/18) Elita światowa\n"
+        "tooltip_skill_group_expired"   "
+                                Ranga w trybie Turniejowym uległa przedawnieniu z powodu nieaktywności. Wygraj 1 mecz, by znów została wyświetlona\n
+                                <b>Rangi meczów Turniejowych:</b>\n
+                                <img src='file://{images}/icons/skillgroups/skillgroup1.svg'/> - (1/18) Srebro I\n
+								<img src='file://{images}/icons/skillgroups/skillgroup2.svg'/> - (2/18) Srebro II\n
+								<img src='file://{images}/icons/skillgroups/skillgroup3.svg'/> - (3/18) Srebro III\n
+								<img src='file://{images}/icons/skillgroups/skillgroup4.svg'/> - (4/18) Srebro IV\n
+								<img src='file://{images}/icons/skillgroups/skillgroup5.svg'/> - (5/18) Elitarne srebro\n
+								<img src='file://{images}/icons/skillgroups/skillgroup6.svg'/> - (6/18) Mistrzowskie elitarne srebro\n
+								<img src='file://{images}/icons/skillgroups/skillgroup7.svg'/> - (7/18) Złoty laur I\n
+								<img src='file://{images}/icons/skillgroups/skillgroup8.svg'/> - (8/18) Złoty laur II\n
+								<img src='file://{images}/icons/skillgroups/skillgroup9.svg'/> - (9/18) Złoty laur III\n
+								<img src='file://{images}/icons/skillgroups/skillgroup10.svg'/> - (10/18) Mistrzowski złoty laur\n
+								<img src='file://{images}/icons/skillgroups/skillgroup11.svg'/> - (11/18) Mistrzowski obrońca I\n
+								<img src='file://{images}/icons/skillgroups/skillgroup12.svg'/> - (12/18) Mistrzowski obrońca II\n
+								<img src='file://{images}/icons/skillgroups/skillgroup13.svg'/> - (13/18) Elitarny mistrzowski obrońca\n
+								<img src='file://{images}/icons/skillgroups/skillgroup14.svg'/> - (14/18) Wybitny mistrzowski obrońca\n
+								<img src='file://{images}/icons/skillgroups/skillgroup15.svg'/> - (15/18) Legendarny orzeł\n
+								<img src='file://{images}/icons/skillgroups/skillgroup16.svg'/> - (16/18) Mistrzowski legendarny orzeł\n
+								<img src='file://{images}/icons/skillgroups/skillgroup17.svg'/> - (17/18) Mistrzowska pierwsza klasa\n
+								<img src='file://{images}/icons/skillgroups/skillgroup18.svg'/> - (18/18) Elita światowa\n"
+        
+        
+        
+        "tooltip_skill_group_genericdangerzone" "
+                                Ranga w trybie Strefy zagrożenia reprezentuje sukcesy graczy w oficjalnych meczach Strefy zagrożenia.\n
+                                <b>Rangi meczów Strefy zagrożenia:</b>\n
+                                <img src='file://{images}/icons/skillgroups/dangerzone1.svg'/> - (1/15) Szczur laboratoryjny I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone2.svg'/> - (2/15) Szczur laboratoryjny II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone3.svg'/> - (3/15) Biegnący zając I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone4.svg'/> - (4/15) Biegnący zając II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone5.svg'/> - (5/15) Dziki skaut I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone6.svg'/> - (6/15) Dziki skaut II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone7.svg'/> - (7/15) Elitarny dziki skaut\n
+								<img src='file://{images}/icons/skillgroups/dangerzone8.svg'/> - (8/15) Lis łowca I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone9.svg'/> - (9/15) Lis łowca II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone10.svg'/> - (10/15) Lis łowca III\n
+								<img src='file://{images}/icons/skillgroups/dangerzone11.svg'/> - (11/15) Elitarny lis łowca\n
+								<img src='file://{images}/icons/skillgroups/dangerzone12.svg'/> - (12/15) Wilk szary\n
+								<img src='file://{images}/icons/skillgroups/dangerzone13.svg'/> - (13/15) Wilk żaru\n
+								<img src='file://{images}/icons/skillgroups/dangerzone14.svg'/> - (14/15) Wilk ognia\n
+								<img src='file://{images}/icons/skillgroups/dangerzone15.svg'/> - (15/15) Wyjący alfa\n"
+        "tooltip_skill_group_nonedangerzone"    "
+                                Ranga w trybie Strefa zagrożenia musi zostać skalibrowana. Ukończ kilka meczy w tym trybie, by znów została wyświetlona.\n
+                                <b>Rangi meczów Strefy zagrożenia:</b>\n
+                                <img src='file://{images}/icons/skillgroups/dangerzone1.svg'/> - (1/15) Szczur laboratoryjny I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone2.svg'/> - (2/15) Szczur laboratoryjny II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone3.svg'/> - (3/15) Biegnący zając I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone4.svg'/> - (4/15) Biegnący zając II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone5.svg'/> - (5/15) Dziki skaut I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone6.svg'/> - (6/15) Dziki skaut II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone7.svg'/> - (7/15) Elitarny dziki skaut\n
+								<img src='file://{images}/icons/skillgroups/dangerzone8.svg'/> - (8/15) Lis łowca I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone9.svg'/> - (9/15) Lis łowca II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone10.svg'/> - (10/15) Lis łowca III\n
+								<img src='file://{images}/icons/skillgroups/dangerzone11.svg'/> - (11/15) Elitarny lis łowca\n
+								<img src='file://{images}/icons/skillgroups/dangerzone12.svg'/> - (12/15) Wilk szary\n
+								<img src='file://{images}/icons/skillgroups/dangerzone13.svg'/> - (13/15) Wilk żaru\n
+								<img src='file://{images}/icons/skillgroups/dangerzone14.svg'/> - (14/15) Wilk ognia\n
+								<img src='file://{images}/icons/skillgroups/dangerzone15.svg'/> - (15/15) Wyjący alfa\n"
+        "tooltip_skill_group_expireddangerzone" "
+                                Ranga w trybie Strefa zagrożenia musi zostać skalibrowana. Ukończ kilka meczy w tym trybie, by znów została wyświetlona.\n
+                                <b>Rangi meczów Strefy zagrożenia:</b>\n
+                                <img src='file://{images}/icons/skillgroups/dangerzone1.svg'/> - (1/15) Szczur laboratoryjny I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone2.svg'/> - (2/15) Szczur laboratoryjny II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone3.svg'/> - (3/15) Biegnący zając I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone4.svg'/> - (4/15) Biegnący zając II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone5.svg'/> - (5/15) Dziki skaut I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone6.svg'/> - (6/15) Dziki skaut II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone7.svg'/> - (7/15) Elitarny dziki skaut\n
+								<img src='file://{images}/icons/skillgroups/dangerzone8.svg'/> - (8/15) Lis łowca I\n
+								<img src='file://{images}/icons/skillgroups/dangerzone9.svg'/> - (9/15) Lis łowca II\n
+								<img src='file://{images}/icons/skillgroups/dangerzone10.svg'/> - (10/15) Lis łowca III\n
+								<img src='file://{images}/icons/skillgroups/dangerzone11.svg'/> - (11/15) Elitarny lis łowca\n
+								<img src='file://{images}/icons/skillgroups/dangerzone12.svg'/> - (12/15) Wilk szary\n
+								<img src='file://{images}/icons/skillgroups/dangerzone13.svg'/> - (13/15) Wilk żaru\n
+								<img src='file://{images}/icons/skillgroups/dangerzone14.svg'/> - (14/15) Wilk ognia\n
+								<img src='file://{images}/icons/skillgroups/dangerzone15.svg'/> - (15/15) Wyjący alfa\n"
+        
+	// KOMUNIKATY O CZYNNIKU ZAUFANIA
+        
+		"SFUI_QMM_ERROR_X_AccountWarningTrustMinor"	"Czynnik zaufania gracza %s1 jest mniejszy od Twojego."
+		"SFUI_QMM_ERROR_X_AccountWarningTrustMajor_Summary"	"System dobierania gier kładzie nacisk na znajdowanie graczy o podobnym czynniku zaufania."
+		"SFUI_QMM_ERROR_X_AccountWarningTrustMajor"	"Czynnik zaufania gracza %s1 jest znacznie mniejszy od Twojego."
+        
+	// TABLET DANGER ZONE
+		
+		"TabletBuyMenu"				"[{v:csgo_bind:bind_buymenu}] Mapa"
+		"TabletHintMap"				" "
+		"TabletHintClose"			" "
+		"TabletNotification_HighlightedSectors"		"[{v:csgo_bind:bind_buymenu}] Menu zakupów"
+		"TabletNotification_NoDronesToControl"		"Brak dostępnych dronów."
+		"TabletNotification_IncomingDelivery"		"Dostawa w drodze."
+		"TabletNotification_ExplorationPayment"		"Eksploracja: +${d:exploreprice}"
+		"TabletNotification_ExplorationPayment_Bonus" "Eksploracja: +${d:exploreprice} & +${d:explorebonus}"
+		"TabletNotification_BombWaveMoney"			"Przeżycie: +${d:surviveprice}"
+		"TabletNotification_BombWaveMoney_Bonus"	"Przeżycie: +${d:surviveprice} & +${d:survivebonus}"
+		
+	// ODRODZENIE DANGER ZONE
+		
+		"Survival_TeammateRespawned"				"Sojusznik odrodził się!"
+		"Survival_RespawnEndWarning"				"Blokada posiłków: {t:d:timeleft}"
+		"Survival_RespawningDisabled"				"Odrodzenie niedostępne!"
+		"Survival_Respawn_Cooldown_Too_Long"		"Odrodzenie niedostępne!"
+		
+	// HINT TIPS
+		
+		"SFUI_Hint_Accurate_Range"		"Avoid using burst fire-mode on the Famas as it can be more unreliable than practical in duels."
+		"SFUI_Hint_Flashbang_Careful"	"Practice throwing perfectly timed pop-flashes for your teammates so the enemy has no time to react."
+		"SFUI_Hint_BuyArmor"			"You might not need to buy a helmet. If you're up against AK-47s you may want to use that money on a better weapon."
+		"SFUI_Hint_BuyArmor2"			"You might not need to buy a helmet. If you're up against AK-47s you may want to use that money on a better weapon."
+		"SFUI_Hint_Defusal_Speed"		"Make sure someone has a defuse kit on pistol round!"
+		"SFUI_Hint_Defuse_Wins"         "While defusing you can crouch, look straight down and even turn around to avoid getting killed."
+		"SFUI_Hint_Backstab"			"You get $1500 per knife-kill, but it is not always simple to do, so make sure you do it when it really counts."
+		"SFUI_Hint_Flashbang_Turn"		"You can fake a grenade throw so enemies hear the pin by switching at just the right time."
+		"SFUI_Hint_Jump_Accuracy"		"Jumping slows your movement and decreases your accuracy, but most importantly can trigger a sound that enemies can hear."
+		"SFUI_Hint_Stand_While_Sniping" "Very rarely will you need to use the double-zoom on a sniper rifle."
+		"SFUI_Hint_KillingHostage"      "Just try your best not to be a watermelon. Your odds of winning will increase if you can work together as a team."
+		"SFUI_Hint_Stick_With_Team"		"Always be proactive between rounds. Be ready to push if a teammate is going out so you can trade kill if necessary."
+		"SFUI_Hint_Ammo_Mangement"		"If you don't want to run out of bullets on a pistol round, you can go for the P2000 which is a great alternative to the USP-S."
+		"SFUI_Hint_Vulnerable_Reloading" "Remember that you can fake reload to bait out an enemy, but make sure you have enough reserve bullets to land the kill."
+		"SFUI_Hint_BeQuicker"			"It is important to take early map control when a new round starts. Learn a few nades on all maps to make this objective easier."
+		"SFUI_Hint_AvoidWater"			"Water on maps like 'Overpass' make a lot of noise, so avoid stepping on it if you can."
+		"SFUI_Hint_PickupGuns"			"Always ask if someone wants an enemy weapon on the ground that you normally can't buy on your side."
+		"SFUI_Hint_Quote_Claudius1"		"'You are not my friend, you are my brother my friend.'  ~PashaBiceps"
+        
+// ---------------------------------------------------------------------------------------------
+// - White
+// - Red
+// - Team color (may cause player's color dot before symbol)
+// - Green
+// - Light green
+// - Green(money awards)
+// - Light red
+// - CT color
+//	 - T color
+// - Light blue
+// - Blue
+// - Violet
+// - Light red 2
